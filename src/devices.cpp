@@ -27,6 +27,7 @@ std::vector<DeviceStatus> PollAllDevices() {
     PollSonyInzone(ctx);
     PollFractal(ctx);
     PollJabra(ctx);
+    PollPlantronics(ctx);  // before generic fallbacks, which cannot query the BT600 headset
     PollRog(ctx);
     PollZowie(ctx);
     PollMchose(ctx);
