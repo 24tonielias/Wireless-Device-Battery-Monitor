@@ -58,6 +58,7 @@ void PollSonix(PollContext& ctx);     // SONiX keyboards on their 2.4 GHz dongle
 void PollSonyInzone(PollContext& ctx);  // Sony INZONE H9 II / H5
 void PollFractal(PollContext& ctx);   // Fractal Design Scape headset (dongle or cable)
 void PollJabra(PollContext& ctx);     // Jabra headsets behind a Link 380 / 390 dongle
+void PollPlantronics(PollContext& ctx); // experimental Plantronics BT600 battery readout
 void PollRog(PollContext& ctx);       // ASUS ROG keyboards and mice
 void PollZowie(PollContext& ctx);     // BenQ ZOWIE EC-CW / DW / U2 mice
 void PollRog(PollContext& ctx);       // ASUS ROG keyboards, mice and the Pelta headset
